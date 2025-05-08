@@ -27,3 +27,8 @@ args = parser.parse_args()
 sniffer = Sniffer(args)
 # Start sniffer
 sniffer.run_forever()
+
+
+
+#sudo python3 sniffer.py -i enp3s0
+#sudo python3 sniffer.py -i enp3s0 -v
