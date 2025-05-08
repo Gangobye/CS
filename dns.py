@@ -64,3 +64,7 @@ if __name__ == '__main__':
     except OSError as error:
         log.error(error)
 
+
+#sudo iptables -I FORWARD -j NFQUEUE --queue-num 0
+#sudo python3 DDOS_cs.py
+#sudo iptables -F
