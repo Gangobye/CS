@@ -42,3 +42,6 @@ while True:
 
      if port == 65534:
          port = 1  # Wrap around when max port is reached
+
+
+#sudo python3 dos.py
