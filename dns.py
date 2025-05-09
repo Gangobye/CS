@@ -66,5 +66,5 @@ if __name__ == '__main__':
 
 
 #sudo iptables -I FORWARD -j NFQUEUE --queue-num 0
-#sudo python3 DDOS_cs.py
+#sudo python3 dns.py
 #sudo iptables -F
